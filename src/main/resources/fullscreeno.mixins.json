@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "link.infra.fullscreeno.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+	],
+	"client": [
+		"MinecraftClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

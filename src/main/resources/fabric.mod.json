@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "fullscreeno",
+	"version": "${version}",
+	"name": "fullscreeNO",
+	"description": "Stops Minecraft from starting in Fullscreen",
+	"authors": [
+		"comp500"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/fullscreeno",
+		"sources": "https://github.com/comp500/fullscreeNO",
+		"issues": "https://github.com/comp500/fullscreeNO/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/fullscreeno/icon.png",
+	"environment": "client",
+	"entrypoints": {},
+	"mixins": [
+		"fullscreeno.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.7.10+build.191",
+		"minecraft": ">=1.15"
+	},
+	"custom": {
+		"modmenu:clientsideOnly": true
+	}
+}
